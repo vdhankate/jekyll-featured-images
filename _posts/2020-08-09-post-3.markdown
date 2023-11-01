@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Post 3!"
-date:   2020-08-09 07:41:25 -0700
+title: Post 3!
+date: '2020-08-09 07:41:25 -0700'
 categories: blog
-image: /assets/images/image3.jpg
+image: /assets/docs/Tiranga.png
+published: true
 ---
 This is a post.
