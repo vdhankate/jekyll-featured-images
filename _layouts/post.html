@@ -5,12 +5,12 @@ layout: default
 
   <header class="post-header">
     {%- if page.image -%}
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post editable">
     {%- else -%}
       {%- assign postImage = "/assets/images/image-default.jpg" -%}
-      <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">
+      <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post editable">
     {%- endif -%}
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name editable" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -21,7 +21,7 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content editable" itemprop="articleBody">
     {{ content }}
   </div>
 
