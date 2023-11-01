@@ -3,7 +3,7 @@ layout: post
 title: Podcast Post 3! Three
 date: '2020-09-10 07:41:25 -0700'
 categories: podcast
-image: /assets/images/podcast-image-3.jpg
+image: /assets/images/podcast-image-2.jpg
 published: true
 ---
 
